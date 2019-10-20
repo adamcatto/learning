@@ -1,0 +1,105 @@
+\documentclass{article}[11pt]
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+
+\begin{document}
+\title{Data Science Design Manual (Skiena) Exercises}
+\author{Adam Catto}
+\maketitle
+\newpage
+\section{Chapter 1: What is Data Science?}
+\textit{1-1. [3] Identify where interesting data sets relevant to the following domains can be found on the web:}\\
+ \\
+ meta: good source in general is \url{https://www.data.gov/}\\
+  \\
+\textbf{(a) Books:} 
+\begin{itemize}
+	\item \url{amazon.com}
+	\item \url{https://www.goodreads.com/api/documentationcom} – the goodreads API. Sign up for a developer key, then use HTTP GET requests to download XML files and use e.g. \href{https://www.crummy.com/software/BeautifulSoup/}{BeautifulSoup}
+	\item \url{https://developer.nytimes.com/docs/books-product/1/overview} – this is the NYT Books API. Can obtain list names, list data (e.g. ``authors'', ``titles'', ``dates'', etc.), and book reviews, serialized in JSON format. JSON files can be downloaded and processed using language of choice.
+ \end{itemize}
+ \bigskip
+\textbf{(b) Horse Racing:} 
+\begin{itemize}
+	\item \url{equibase.com}
+	\item \url{http://www.horseracingdatasets.com/}
+	\item \url{https://www.kaggle.com/noqcks/woodbine-races}
+ \end{itemize}
+ \bigskip
+\textbf{(c) Stock Prices:} \\
+\\
+meta / pointer: \url{https://www.investopedia.com/ask/answers/find-historical-stock-index-quotes/}
+\begin{itemize}
+	\item \url{https://datahub.io/collections/stock-market-data}
+	\item \url{https://iextrading.com/developer/}
+	\item \url{https://www.marketwatch.com/tools/quotes/historical.asp}
+\end{itemize}
+\bigskip
+\textbf{(d) Risks of Diseases:}
+\begin{itemize}
+	\item \url{https://data.world/datasets/epidemiology}
+	\item \url{https://catalog.data.gov/dataset?_organization_limit=0&organization=hhs-gov#topic=health_navigation}
+	\item \url{http://www.spatialepidemiology.net/datasets/}
+\end{itemize}
+\bigskip
+\textbf{(e) Colleges \& Universities}
+\begin{itemize}
+	\item \url{https://catalog.data.gov/dataset?tags=integrated-postsecondary-education-data-system&q=Integrated+Postsecondary+Education+Data+System#topic=education_navigation}
+	\item \url{https://www.kaggle.com/theriley106/college-common-data-sets}
+	\item \url{https://data-planet.libguides.com/c.php?g=454340&p=3103525}
+\end{itemize}
+\bigskip
+\textbf{(f) Crime Rates}
+\begin{itemize}
+	\item \url{https://data.cityofnewyork.us/Public-Safety/NYC-crime/qb7u-rbmr} – NYC crime data. Can download in various formats, e.g. CSV, JSON, RDF, ...
+	\item \url{https://data.world/datasets/crime} – example: US Mass Shootings datasets in xlsx format can be loaded in Microsoft Excel. (Or, converted in CSV format and processed as desired.)
+	\item \url{https://www.kaggle.com/mikejohnsonjr/united-states-crime-rates-by-county} – download CSV file.
+\end{itemize}
+\bigskip
+\textbf{(g) Bird Watching}
+\begin{itemize}
+	\item \url{https://catalog.data.gov/dataset/idaho-birding-trail-routese136f} – Idaho Birding Trail Routes data. Download geospatial data in CSV format or with ArcGIS.
+	\item \url{https://catalog.data.gov/dataset/wildlife-management-areasf8967} – Wildlife Management Areas. Arranged via township range section, geographic names, ITD roads, FS roads, hydrography, land ownership, county boundaries, etc.; can be downloaded in JSON format.
+	\item \url{https://catalog.data.gov/dataset/idaho-birding-trails-sites83614} – Idaho Birding Trail Sites data. Same as above.
+\end{itemize}
+\bigskip
+\textit{1-2. [3] Propose relevant data sources for the following The Quant Shop prediction
+ challenges. Distinguish between sources of data that you are sure somebody must
+ have, and those where the data is clearly available to you.}\\
+  \\
+ \textit{1-3. [3] Visit http://data.gov, and identify ﬁve data sets that sound interesting to
+ you. For each write a brief description, and propose three interesting things you
+ might do with them.}\\
+  \\
+ \textit{1-4. [3] For each of the following data sources, propose three interesting questions
+ you can answer by analyzing them:}\\
+  \\
+ \textbf{(a) Credit card billing data:}
+ \begin{itemize}
+ 	\item What events occur at periods of time with the highest spending density? (e.g. holidays)?
+ 	\item What does the probability distribution of prices look like?
+ 	\item How much is spent on, say, goods/services corresponding to each level of Maslow's hierarchy? (follows an 80/20 rule, maybe?)
+ \end{itemize}
+ \bigskip
+ \textbf{(b) Amazon Click Data:}
+ \begin{itemize}
+ 	\item Given an ontology / data about object similarity, what is the average ``distance'' between consecutive objects clicked?
+ 	\item Do people with ADHD have a significantly larger or significantly smaller average distance between objects / a significantly larger/smaller number of clicks per unit of time?
+ 	\item Under what conditions do people tend to have the highest temporal click density?
+ \end{itemize}
+ \bigskip
+ \textbf{(c) White Pages residential/commercial telephone directory:}
+ \begin{itemize}
+ 	\item What area codes have the highest/lowest density of hospitals per capita?
+ 	\item Has the intergenerational delta in name frequency changed significantly more/less in more progressive and/or afluent areas than in more conservative areas?
+ 	\item Is there more homogeneity in the first/last names of people in regions that tend to vote Republican than there is in regions that tend to vote Democrat? (and, i suppose, how do we quantify homogeneity within a region, exactly?)
+ \end{itemize}
+
+\end{document}
