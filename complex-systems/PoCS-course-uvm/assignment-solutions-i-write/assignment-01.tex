@@ -1,0 +1,41 @@
+\documentclass{article}[11pt]
+\usepackage{amsmath}
+\usepackage{amssymb}
+\title{Principles of Complex Systems, CSYS/MATH 300\\
+		University of Vermont, Fall 2019\\
+		Assignment 01 – Code Name: ``Conspiracy Theories and Interior Design''}
+\author{Adam Catto}
+\begin{document}
+\maketitle
+These are solutions I've written to assignment 01 of UVM's course ``Principles of Complex Systems'', CSYS/MATH 300, from Fall 2019. I am independently studying topics in complex systems, and am currently doing the assignments from UVM's PoCS (principles of complex systems) and CoCoNuTs (complex networks) courses.\\
+ \\
+This assignment focuses on scaling.
+\newpage
+\fbox{Problem 01}\\
+\textit{Use a back-of-an-envelope scaling argument to show that maximal rowing speed $V$ increases as the number of oarspeople $N$ as $V \propto  N^{1/9}$.}\\ 
+ \\
+Via assumptions (a)–(g), we have the following scaling proportions:
+\begin{enumerate}
+	\item $P\propto D_f \times V$
+	\item $D_f \propto V^2\times\ell^2$
+	\item $\delta_{\omega} \propto N$
+	\item $\delta_d \propto \ell$
+	\item $P\propto N$
+\end{enumerate}
+and, via isometric scaling of $\ell$, we have 
+$$ \delta_{\omega} \propto \delta_d^3 \equiv \delta_d \propto \delta_{\omega}^{1/3} $$
+and so we can determine
+\begin{enumerate}
+	\item $V\propto \frac{P}{D_f} $
+	\item $V\propto \frac{N}{V^2\times \ell^2}$
+	\item $\ell^2\times V^3 \propto N$
+	\item $\delta_d^2 \times V^3 \propto N$
+	\item $\delta_{\omega}^{2/3}\times V^3 \propto N$
+	\item $N^{2/3}\times V^3 \propto N$
+	\item $V^3\propto N^{1-2/3} \implies V^3\propto N^{1/3}$
+	\item $V\propto N^{\frac{1/3}{1/3}}$
+	\item $V\propto N^{1/9}$
+\end{enumerate}
+\hfill $\blacksquare$
+\fbox{Problem 02}
+\end{document}
