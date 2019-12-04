@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\graphicspath{{./photos/}}
 \title{Seven Sketches in Compositionality – Exercises}
 \author{Adam Catto}
 \date{}
@@ -56,5 +58,43 @@ $$ (11,11),(12,12),(13,13),(21,21),(22,22),(23,23),(11,12),(12,11),(22,23),(23,2
 \end{enumerate}\bigskip
 \textbf{1.20}\\
  \\
-By function definition, each $a\in A$ has a unique $y\in\emptyset$ such that $(a,y)\in f$. But there are no $y\in\emptyset$, therefore there cannot exist any such $a\in A$, therefore $A$ is empty.$\hfill\blacksquare$
+By function definition, each $a\in A$ has a unique $y\in\emptyset$ such that $(a,y)\in f$. But there are no $y\in\emptyset$, therefore there cannot exist any such $a\in A$, therefore $A$ is empty.$\hfill\blacksquare$\\
+ \\
+\textbf{1.33}\\
+ \\
+$
+\begin{vmatrix}
+a & 1 & 2\\
+b & 1 & 3\\
+c & 1 & 3\\
+d & 2 & 2\\
+e & 2 & 3
+\end{vmatrix}
+$\\
+ \\
+\textbf{1.35}\\
+ \\
+$(1,1),(1,2),(1,3),(2,2),(2,3),(3,3),(4,4)$\\
+ \\
+\textbf{1.41}\\
+ \\
+\includegraphics[scale=0.1]{7sketches-1-41.jpg}\\
+It is not a total order; for instance, neither $7\leq 9$ nor $9\leq 7$.\\
+ \\
+\textbf{1.43}\\
+ \\
+Yes.\\
+ \\
+\textbf{1.46}\\
+ \\
+\includegraphics[scale=0.1]{7sketches-1-46.jpg}
+\newpage
+\textbf{1.48}\\
+ \\
+\textit{Coarsest}: identity function (top level of Hasse diagram) \\
+\textit{Finest}: projection onto singleton sets for each $s\in S$ (second to bottom level of Hasse diagram)\\
+ \\
+\textbf{1.50}\\
+ \\
+This is the same as proving that all subsets of $X$ are upper sets of the discrete preorder on $X$, i.e. that $\forall \left[x,y\in X\right].\left[ x\in U \wedge x\leq y \implies y\in U \right]$. The empty set is in $U$ via vacuous truth of the antecedent. Also, each $\{ x\}$ for $x\in X$ is an upper set, via reflexivity of (discrete) preorder. Then for any $x\in X$, take the union of the singleton set $\{ x \}$ and any other subset $Y\subseteq X$ disjoint from this singleton. By the argument from two sentences ago, each such singleton set is an upper set. This union is a subset of $X$, and furthermore it is an upper set, since the antecedent conjunction is false – it is not the case that $x\leq y$ for any $y\in Y$, since they are not comparable via definition of discrete preorder. Therefore all such $Y$ are upper sets. These three statements (empty set is an upper set, all singletons are upper sets, all other subsets are upper sets) entail that all subsets of $X$ are upper sets, therefore the preorder of upper sets on $X$ is the power set.$\hfill\blacksquare$
 \end{document}
