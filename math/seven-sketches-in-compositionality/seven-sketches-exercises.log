@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.7)  4 DEC 2019 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.7)  4 DEC 2019 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,17 +290,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--91
  []
 
 [2] [3 <./photos/7sketches-1-41.jpg> <./photos/7sketches-1-46.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
 
  []
 
@@ -312,7 +317,7 @@ Here is how much of TeX's memory you used:
  6745 multiletter control sequences out of 15000+600000
  11542 words of font info for 45 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 46i,8n,31p,1116b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,31p,1118b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019basic/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019basic/tex
@@ -331,7 +336,7 @@ usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 .pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on seven-sketches-exercises.pdf (4 pages, 1538324 bytes).
+Output written on seven-sketches-exercises.pdf (4 pages, 1539657 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
