@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{amssymb}
+\usepackage{amssymb,amsmath}
 \title{Seven Sketches in Compositionality – Exercises}
 \author{Adam Catto}
 \date{}
@@ -37,6 +37,24 @@
 \textbf{1.11}
 \begin{enumerate}
 	\item If there were more than one $p'\in P'$ such that $A_p=A'_{p'}$ (i.e. $p'_1$ and $p'_2$ such that $A_p=A'_{p'_1}$ and $A_p=A'_{p'_2}$), then $p'_1\neq p'_2$, so necessarily $A'_{p'_1} \cap A'_{p'_2}=\emptyset$. But then since $A'_{p'_1}=A_p=A'_{p'_2}$, then $A'_{p'_1}=A'_{p'_2}$, thus $A'_{p'_1}\cap A'_{p'_2} = A_p\cap A_p = A_p\neq \emptyset$, by definition of partition, therefore there cannot be more than one $p'\in P'$ such that $A_p=A'_{p'}$. $\hfill \blacksquare$
-	\item Since there exists a $p'\in P'$ such that $A_p=A'_{p'}$, and by 1.11.1, there is at most one such $p'$, it follows that there is a bijection between these $p\in P$ and $p'\in P'$, thus for each $p'\in P'$ there exists a $p\in P$ such that $A_p=A'_{p'}$. $\hfill \blacksquare$
-\end{enumerate}
+	\item Since there exists a $p'\in P'$ such that $A_p=A'_{p'}$, and by 1.11.1, there is at most one such $p'$, it follows that there is a bijection between these $p\in P$ and $p'\in P'$, thus $\forall p'\in P'$ there exists a $p\in P$ such that $A_p=A'_{p'}$. $\hfill \blacksquare$
+\end{enumerate}\bigskip
+\textbf{1.12}
+$$ (11,11),(12,12),(13,13),(21,21),(22,22),(23,23),(11,12),(12,11),(22,23),(23,22) $$
+\textbf{1.15}
+\begin{enumerate}
+	\item Each $A_p$ is $(\sim )$-connected, therefore they are nonempty.$\hfill\blacksquare$
+	\item If $A_p\cap A_q\neq\emptyset$, then for any $x\in A_p\cap A_q$, it follows  that $x\in A_p$ and $x\in A_q$. Thus for any $x_p\in A_p$, we have $x_p\sim x$, and under $(\sim )$-closure and $x\in A_q$, it follows that $x_p\in A_q$, and the same for $x_q\in A_q$. Therefore, $A_p=A_q \vDash p=q$, which violates the contextual assertion that $p\neq q$, therefore $p\neq q\implies A_p\cap A_q=\emptyset$.$\hfill\blacksquare$
+	\item Each $A_p$ is nonempty and $\sim$ is reflexive, i.e. we have at least for each $x$ that $x\sim x$, therefore we have at least that $A$ is the union of singleton sets that cover $A$, therefore $A=\bigcup_{p\in P} A_p$.$\hfill\blacksquare$
+\end{enumerate}\bigskip
+\textbf{1.19}
+\begin{enumerate}
+	\item $f:\mathbb{Z}\rightarrow\mathbb{R}: x\mapsto x+1$
+	\item $f:\mathbb{Q}\rightarrow\mathbb{Z}: x\mapsto x-\frac{x}{10}$
+	\item (1): yes (2): no (3): no (4): yes 
+	\item (1): neither (2): top dot's targets are not unique, bottom dot has no target (3): top dot has no target (partial function?) (4) bijective
+\end{enumerate}\bigskip
+\textbf{1.20}\\
+ \\
+By function definition, each $a\in A$ has a unique $y\in\emptyset$ such that $(a,y)\in f$. But there are no $y\in\emptyset$, therefore there cannot exist any such $a\in A$, therefore $A$ is empty.$\hfill\blacksquare$
 \end{document}
