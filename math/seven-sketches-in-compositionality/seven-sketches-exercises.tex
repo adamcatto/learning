@@ -103,4 +103,14 @@ This is the same as proving that all subsets of $X$ are upper sets of the discre
 	\item $x\leq y\implies id(x)\leq id(y)\implies x\leq y$
 	\item for $p_1,p_2\in P$, $p_1\leq p_2 \implies f(p_1)\leq f(p_2)$, and for $q_1,q_2\in Q$, $q_1\leq q_2 \implies g(q_1)\leq g(q_2)$. Let $q_1=f(p_1), \ q_2=f(p_2)$. Then $p_1\leq p_2\implies g(f(p_1))\leq g(f(p_2))$, i.e. $(f;g)$ is monotone.$\hfill\blacksquare$
 \end{enumerate}
+\section{Chapter 2 – Resource Theories: Monoidal Preorders and Enrichment}
+\textbf{(2.4)}\\
+ \\
+This fails due to condition \textit{(a)} of Definition (2.1) –\\ 
+$\forall \left[ x_1,x_2,y_1,y_2 \in X\right] .\left[ (x_1\leq y_1 \wedge x_2\leq y_2)\implies x_1\otimes x_2 \leq y_1 \otimes y_2 \right] $\\
+for instance, any model in which $x_1,x_2$ are both negative real numbers larger in magnitude than positive reals $y_1,y_2$ will not yield $x_1\otimes x_2 \leq y_1\otimes y_2.\hfill\blacksquare$\\
+ \\
+\textbf{(2.6)}\\
+ \\
+Yes, \textbf{Disc}$_M$ is indeed a symmetric monoidal preorder. It satisfies conditions (b) and (c) of Definition (2.1) via equation (2.2). It satisfies condition (d) of Definition (2.1) via the asserted commutativity of $*$. Finally, this induces satsifaction of condition (a) of Definition (2.1), via renaming of identical variables: if $m=n$ and $s=t$, then $m*s=n*s=n*t.\hfill\blacksquare$
 \end{document}
