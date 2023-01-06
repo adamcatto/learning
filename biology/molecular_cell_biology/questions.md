@@ -22,4 +22,10 @@
 
 10. Using GFP for labeling proteins of interest circumvents the need to fix and stain tissue required by antibody staining. This allows for imaging of living cells. Furthermore, one can use FRAP to observe the movement of GFP-labeled proteins; I do not believe there is any approach similar to photo-bleaching for antibody staining, or at least not one that is as easy.
 
-11. Velocity centrifugation separates organelles that move through the sucrose gradient at similar speeds, of similar size, as organelles of similar size will move through the sucrose gradient at similar speeds. Equilibrium centrifugation separates organelles
+11. Velocity centrifugation separates organelles that move through the sucrose gradient at similar speeds; as organelles of similar size will move through the sucrose gradient at similar speeds, separate fractions of the sucrose gradient contain only organelles of similar size, thus velocity centrifugation separates organelles of similar size. Equilibrium centrifugation separates particles on the basis of buoyancy; centrifugation is performed for an extended period, until particles are separated by mass. Depending on the length of time over which the centrifuge is spun, this approach can have extremely high resolution, separating molecules of different isotopes.
+
+12. Serum is required as a source of (polypeptide) growth factors, which are needed to induce cell division for animal cells in culture. Cell cultures cannot grow without these growth factors.
+
+13. Primary cell cultures eventually die after several dozen replication cycles (e.g. for human fibroblasts the limit is between 50-100 cycles). These are the initial cultures derived from a tissue sample. So-called "immortal" cell lines, on the other hand, contain some cells (embryonic or tumor cells) which can divide indefinitely.
+
+14. Culturing embryonic cells yields a continuous, uniform, indefinitely-propagatable source of cells which can be studied / manipulated in the lab. This ensures reproducibility of experiments, among other upsides.
