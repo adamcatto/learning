@@ -10,3 +10,21 @@ An important visualization technique in molecular biology is fluorescence micros
 
 Now say instead of visualizing a snapshot of protein distribution across a cell, you want to understand the rate of diffusion of a protein across a membrane. You can still use the tools of GFP-assisted fluorescence microscopy, but now photo-bleach the membrane and some of the cytosol. Capturing a time-lapse of microscopy images now will give you a picture of the rate at which a protein moves across the membrane! This technique is called fluorescence recovery after photobleaching (FRAP).
 
+## Chapter 02 – Molecules and Membranes
+
+Water is important. It is a polar molecule, and readily available to form hydrogen bonds either with itself or other polar molecules. It can also interact with ions. There are many important metabolic functions in which water is involved.
+
+There are four main classes of biomolecules involved in cell function:
+
+1. Carbohydrate
+
+2. Lipid
+
+3. Nucleic Acid
+
+4. Protein
+
+Carbohydrates are classified into two broad classes: monosaccharides (simple sugars) and polysaccharides, which are large combinations of monosaccharides. There is an in-between carbohydrate called oligosaccharide, which is a small combination of monosaccharides (say, 2-100). Monosaccharides are principally involved in energy production and cell component production, whereas polysaccharides are principally involved in energy storage and play structural roles in the cell. All carbohydrates play important roles in cell processes; when joined to a protein, they help dictate protein folding and act as markers for protein transport to organelles or the cell membrane.
+
+Lipids serve similar roles as polysaccharides, in addition to other roles. Lipids provide structural integrity to the cell membrane. The primary types of membrane lipids are phospholipids, cholesterol, and glycolipids. Each of these three are partially hyrdrophobic and partially hydrophilic (this is called "amphipathic"), forming a natural membrane between the water-rich cytosol and less-water-rich extracellular space. Membrane lipids also have signaling functions, relaying signals from cell surface receptors to components in the cell body. Another type of lipid – triglycerols, i.e. fatty acids – are important (and efficient) energy stores, yielding twice the amount of energy per unit mass as carbohydrates. Other lipids act as signaling molecules, e.g. steroid hormones.
+

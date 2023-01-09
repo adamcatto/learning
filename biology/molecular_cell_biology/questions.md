@@ -29,3 +29,17 @@
 13. Primary cell cultures eventually die after several dozen replication cycles (e.g. for human fibroblasts the limit is between 50-100 cycles). These are the initial cultures derived from a tissue sample. So-called "immortal" cell lines, on the other hand, contain some cells (embryonic or tumor cells) which can divide indefinitely.
 
 14. Culturing embryonic cells yields a continuous, uniform, indefinitely-propagatable source of cells which can be studied / manipulated in the lab. This ensures reproducibility of experiments, among other upsides.
+
+## Chapter 02
+
+1. Water is a polar molecule, and readily available to form hydrogen bonds either with itself or other polar molecules. It can also interact with ions. Without water, the amphipathic cell membrane structure would not take shape, for instance.
+
+2. The glucose monomers in glycogen are linked by $\alpha (1\rightarrow 4)$ bonds, which yields a weaker interaction between the glucose monomers than $\beta (1\rightarrow 4)$ bonds do. Cellulose consists of such $\beta (1\rightarrow 4)$ bonds, which yields a tight linear structure that does not dissolve in water, whereas glycogen's $\alpha (1\rightarrow 4)$ bonds – in addition to its occassional branching $\alpha (1\rightarrow 6)$ bonds – readily dissolve in water. This makes cellulose functionally a molecule for structural integrity, and glycogen a molecule for energy storage to be used in metabolic reactions in the cell. Chemically, though, the difference is that glycogen contains occasional branching $\alpha (1\rightarrow 6)$ bonds and mostly $\alpha (1\rightarrow 4)$ bonds, which are relatively weaker than $\beta (1\rightarrow 4)$ bonds seen between cellulose's glucose monomers. See ![](figures/alpha_beta_bonds_3d.gif)
+
+3. Lipids serve similar roles as polysaccharides, in addition to other roles. Lipids provide structural integrity to the cell membrane. The primary types of membrane lipids are phospholipids, cholesterol, and glycolipids. Each of these three are partially hyrdrophobic and partially hydrophilic (this is called "amphipathic"), forming a natural membrane between the water-rich cytosol and less-water-rich extracellular space. Membrane lipids also have signaling functions, relaying signals from cell surface receptors to components in the cell body. Another type of lipid – triglycerols, i.e. fatty acids – are important (and efficient) energy stores, yielding twice the amount of energy per unit mass as carbohydrates. Other lipids act as signaling molecules, e.g. steroid hormones.
+
+4. Nucleotides can function as chemical energy carriers, chemical group carriers, or signaling molecules, in addition to serving as building blocks of DNA.
+
+5. Relevant mRNA information is directly contained in the bases, which direct the synthesis of proteins; deleting the bases effectively deletes the information.
+
+6. There was a very elegant experiment published in *Science* in 1957, conducted by Sela, White Jr., and Anfinsen at the NIH, which demonstrated the dependence of the folding of a protein on its amino acid sequence. The team denatured the protein, i.e. heated and treated with a chemical-reducing reagent to break the disulfide bonds and thus disrupt the native protein folding conformation. Under incubation in cooler conditions, the proteins typically spontaneously re-conformed to their original conformation. By perturbing only the the disulfide bonds, the team demonstrated that the amino acid sequence of a protein is enough to determine its folded structure.
